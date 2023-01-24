@@ -133,13 +133,17 @@ article {
 }
 
 @media (min-width: 48em) {
+  main {
+    padding-inline: 1rem;
+  }
   .flex {
     gap: 1.3rem;
   }
 
   .grid-container {
-    width: 80rem;
+    width: 90rem;
     grid-template-columns: repeat(4, 1fr);
+    // grid-template-rows: 50% 50%;
 
     grid-template-areas:
       'daniel daniel jonathan kira'
@@ -147,7 +151,6 @@ article {
 
     article {
       padding: 2rem;
-
       summary {
         p {
           font-size: 1.7rem;
@@ -156,7 +159,7 @@ article {
 
       footer {
         p {
-          font-size: 1.18rem;
+          font-size: 1.1rem;
         }
       }
 
@@ -178,7 +181,6 @@ article {
 
       &:nth-child(5) {
         grid-area: kira;
-        justify-self: start;
       }
     }
   }

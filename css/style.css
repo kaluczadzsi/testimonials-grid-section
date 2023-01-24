@@ -147,11 +147,14 @@ article:nth-child(1) img {
 }
 
 @media (min-width: 48em) {
+  main {
+    padding-inline: 1rem;
+  }
   .flex {
     gap: 1.3rem;
   }
   .grid-container {
-    width: 80rem;
+    width: 90rem;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
   }
@@ -162,7 +165,7 @@ article:nth-child(1) img {
     font-size: 1.7rem;
   }
   .grid-container article footer p {
-    font-size: 1.18rem;
+    font-size: 1.1rem;
   }
   .grid-container article:nth-child(1) {
     grid-area: daniel;
@@ -178,6 +181,5 @@ article:nth-child(1) img {
   }
   .grid-container article:nth-child(5) {
     grid-area: kira;
-    justify-self: start;
   }
 }/*# sourceMappingURL=style.css.map */
