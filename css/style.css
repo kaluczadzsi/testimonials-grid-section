@@ -1,4 +1,42 @@
 /*
 1. "Verified Graduate" has the same color as the person's name with 50% opacity
 2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
- *//*# sourceMappingURL=style.css.map */
+ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  font-size: 13px;
+}/*# sourceMappingURL=style.css.map */
